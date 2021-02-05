@@ -352,6 +352,7 @@ body a {
     margin-right: 20%;
     height: 30vh;
     animation: rotate 100s infinite;
+    margin-top: 10%;
   }
 
   @keyframes rotate {
