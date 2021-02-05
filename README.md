@@ -1,20 +1,31 @@
-Project Name
-One paragraph statement about the project.
 
-screenshot
+Creative Souls- Covid secure confrence 
 
-Additional description about the project and its features.
+In this project, I have created a website based on the design of a conference website designed by 'Cindy Shin.
+the website has two layouts one for mobile and one for bigger screens, it is informative with regards to the concert and also includes the design for purchasing a 
+ticket for the desired date.
+creating this website I tried to stay loyal to some of the designs and the patterns while introducing some of my own for creativity.
+I have also applied animations in order to enhance the user's experience.
+
+Big screen view
+
+![Alt text](/assets/images/Concert-hall-about-tablet.png?raw=true "Desktop View")
+
+Small screen view
+
+![Alt text](/assets/images/Concert-hall-main-mobile.png?raw=true "Desktop View")
+
 
 Built With
-Major languages
-Frameworks
+HTML
+css
+Bootstrap
+
 Technologies used
 Live Demo
-Live Demo Link
+https://erezfree29.github.io/Cpastone-project-new/
 
 Getting Started
-This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
-
 To get a local copy up and running follow these simple example steps.
 
 Prerequisites
@@ -23,18 +34,15 @@ Install
 Usage
 Run tests
 Deployment
-Authors
-👤 Author1
 
-GitHub: @githubhandle
-Twitter: @twitterhandle
-LinkedIn: LinkedIn
-👤 Author2
+Author Erez Friemagor
 
-GitHub: @githubhandle
-Twitter: @twitterhandle
-LinkedIn: LinkedIn
-🤝 Contributing
+Github: @erezfree29
+
+Twitter: https://twitter.com/friemagor
+
+Linkedin: https://www.linkedin.com/in/erez-friemagor-3b0bab145/
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
