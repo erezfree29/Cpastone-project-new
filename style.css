@@ -1,3 +1,7 @@
+@font-face {
+  font-family: COCOGOOSE;
+  src: url('fonts/Cocogoose_trial.otf');
+}
 
 .container {
   max-width: 320px;
@@ -169,6 +173,7 @@
   line-height: 2.2rem;
   font-weight: bold;
   padding-bottom: 20px;
+  font-family: COCOGOOSE, sans-serif;
 }
 
 .desc {
@@ -316,6 +321,7 @@ body a {
   .main {
     display: flex;
     justify-content: center;
+    font-family: COCOGOOSE, sans-serif;
   }
 
   .cards {
