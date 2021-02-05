@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Lato;
+  src: url('fonts/Lato-Light.ttf');
+}
 
 .pink {
   color: hotpink;
@@ -69,12 +73,14 @@
   margin-top: 20px;
   margin-left: 3%;
   background-color: rgb(240, 236, 229);
+  font-family: Lato, sans-serif;
 }
 
 .about_text {
   padding-left: 3.5%;
   height: 60vw;
   padding-top: 7%;
+  font-family: Lato, sans-serif;
 }
 
 .live {
@@ -95,6 +101,7 @@
   display: flex;
   width: 80%;
   margin-left: 10%;
+  font-family: Lato, sans-serif;
 }
 
 .logo_card {
@@ -121,6 +128,7 @@
 .see_people {
   margin-left: 10%;
   font-size: 1.2rem;
+  font-family: Lato, sans-serif;
 }
 
 .confirmed {
