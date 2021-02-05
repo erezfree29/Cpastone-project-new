@@ -1,0 +1,62 @@
+.ticket {
+  display: flex;
+  justify-content: center;
+}
+
+.select_mobile {
+  font-size: 0.55rem;
+  border: 1px solid rgb(211, 182, 182);
+  padding: 2%;
+  width: 310px;
+}
+
+.menu_thur {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.top_box {
+  width: 90%;
+  height: 3vh;
+  border: 1px solid rgb(214, 194, 194);
+  background-color: #f6f6f6;
+  font-size: 0.7rem;
+  line-height: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+}
+
+.bottom_box {
+  width: 90%;
+  height: 10vh;
+  border: 1px solid rgb(214, 194, 194);
+  background-color: white;
+  margin-left: 15%;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+@media (min-width: 768px) {
+  .ticket {
+    display: none;
+  }
+
+  .tickets {
+    display: flex;
+    justify-content: center;
+  }
+
+  .select_ticket {
+    font-size: 0.8rem;
+    border: 1px solid rgb(211, 182, 182);
+    width: 100%;
+    margin-bottom: 2%;
+  }
+}

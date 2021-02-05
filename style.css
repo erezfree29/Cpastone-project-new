@@ -1,0 +1,397 @@
+
+.container {
+  max-width: 320px;
+}
+
+.mobile_nav_top {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+.mobile_nav_bottom {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.e_line {
+  position: fixed;
+  left: 79px;
+  width: 8px;
+  top: 3px;
+  color: black;
+  font-weight: 700;
+}
+
+.mobile_hide {
+  display: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 80px;
+  padding: 12px 16px;
+  box-shadow: 0 8px 16px 0 rgba(184, 82, 82, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.red {
+  color: red;
+}
+
+.maze {
+  position: relative;
+  top: 3px;
+}
+
+.maze img {
+  width: 12%;
+}
+
+.intro {
+  color: gray;
+  line-height: 1.5rem;
+}
+
+.cel_card {
+  border: 1px solid rgb(238, 228, 228);
+  height: 40vh;
+  box-shadow: 0 8px 16px 0 rgba(184, 82, 82, 0.2);
+  transition: 0.3s;
+  padding: 2px 16px;
+}
+
+.main_program {
+  background-color: #282b32;
+  color: white;
+}
+
+.red_line {
+  border-top: 1px solid red;
+  width: 15%;
+}
+
+.m_card {
+  background-color: #3c3f46;
+  width: 93%;
+  margin-left: 3.5%;
+}
+
+.m_card_container img {
+  width: 13%;
+}
+
+.m_card_container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 33vh;
+}
+
+.about_music {
+  line-height: 1.2rem;
+  padding-top: 5%;
+  position: absolute;
+  width: 60%;
+  left: 100px;
+}
+
+.lecture {
+  font-size: 0.5;
+  padding-left: 1.5%;
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.button {
+  background-color: red;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.featured {
+  color: black;
+}
+
+.artist {
+  display: flex;
+  position: relative;
+  margin-top: 40px;
+}
+
+.artist img {
+  width: 55%;
+}
+
+.checkers {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  z-index: -1;
+}
+
+.checkers img {
+  width: 15%;
+}
+
+.artist_data {
+  padding-left: 5%;
+}
+
+.name {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.desc {
+  color: red;
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+}
+
+.more_desc {
+  font-size: 1rem;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+}
+
+.rectangle {
+  width: 80%;
+  height: 40px;
+  border: 1px solid rgb(211, 194, 194);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.white {
+  color: white;
+}
+
+.foot_top {
+  background-color: #414246;
+  width: 310px;
+}
+
+.fa-copyright {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.creative {
+  width: 50%;
+  line-height: 0.4rem;
+  height: 3rem;
+  padding-top: 5%;
+  color: black;
+}
+
+.break::after {
+  content: "\a\a";
+  white-space: pre;
+}
+
+.rights {
+  line-height: 0.5rem;
+  font-size: 0.6rem;
+  color: gray;
+}
+
+body a {
+  color: black;
+}
+
+.contain_card {
+  display: flex;
+  justify-content: center;
+}
+
+.top_section {
+  margin-top: 40px;
+}
+
+.tablet_nav_bottom {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .mobile_nav_bottom {
+    display: none;
+  }
+
+  .camp {
+    margin-right: -20px;
+  }
+
+  .tablet_nav_top {
+    background-color: #3e3e3e;
+    display: flex;
+    position: fixed;
+    color: white;
+    top: 0;
+    width: 720px;
+  }
+
+  .tablet_nav_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 0.5px solid rgb(238, 229, 229);
+    margin-top: 30px;
+  }
+
+  .tablet_hide {
+    display: none;
+  }
+
+  .mobile_hide {
+    display: block;
+  }
+
+  .fa-facebook {
+    margin-left: 70%;
+  }
+
+  .maze {
+    position: relative;
+    top: 10px;
+    right: 5px;
+  }
+
+  .maze img {
+    width: 6%;
+  }
+
+  .intro {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin-top: 50px;
+  }
+
+  .m_card {
+    height: 40vh;
+  }
+
+  .cel_card {
+    height: 24vh;
+  }
+
+  .main {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cards {
+    display: flex;
+  }
+
+  .m_card_container {
+    display: block;
+  }
+
+  .m_card_container img {
+    width: 40%;
+  }
+
+  .about_music {
+    line-height: 1.7rem;
+    left: 15px;
+  }
+
+  .main_program {
+    height: 60vh;
+  }
+
+  .right {
+    margin-right: 15px;
+  }
+
+  .align {
+    margin-left: 32%;
+  }
+
+  .artist {
+    width: 100%;
+    margin-right: 20%;
+    height: 30vh;
+    animation: rotate 100s infinite;
+  }
+
+  @keyframes rotate {
+    100% {
+      transform: rotateY(180deg);
+    }
+  }
+
+  .artist img {
+    width: 70%;
+  }
+
+  .artists {
+    display: flex;
+  }
+
+  .foot_top {
+    width: 100%;
+  }
+
+  .foot_bottom {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+  }
+
+  .mozzila {
+    margin-left: 30%;
+  }
+
+  .dum {
+    margin-left: 32%;
+  }
+
+  .fa-airbnb {
+    padding-top: 4%;
+  }
+
+  .top_section {
+    margin-top: 25px;
+  }
+}

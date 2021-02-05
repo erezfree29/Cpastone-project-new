@@ -1,0 +1,206 @@
+.pink {
+  color: hotpink;
+  width: 320px;
+}
+
+.covid {
+  color: red;
+}
+
+.center {
+  margin-left: 15%;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.center:hover {
+  transform: rotate(360deg);
+}
+
+.souls {
+  margin-left: 10%;
+  color: blue;
+}
+
+.event {
+  margin-left: 20%;
+  padding-top: 10%;
+}
+
+.year {
+  margin-left: 20%;
+  color: greenyellow;
+}
+
+.about_card {
+  box-shadow: 0 4px 8px 0 gray;
+  transition: 0.3s;
+  width: 320px;
+  margin-left: 5%;
+  background-color: #414246;
+  color: white;
+  font-size: 0.7rem;
+  animation: myanimation 50s infinite;
+}
+
+@keyframes myanimation {
+  0% {
+    background-color: red;
+  }
+
+  25% {
+    background-color: yellow;
+  }
+
+  50% {
+    background-color: green;
+  }
+
+  75% {
+    background-color: brown;
+  }
+
+  100% {
+    background-color: red;
+  }
+}
+
+.live_event {
+  margin-top: 20px;
+  margin-left: 3%;
+  background-color: rgb(240, 236, 229);
+}
+
+.about_text {
+  padding-left: 3.5%;
+  height: 60vw;
+  padding-top: 7%;
+}
+
+.live {
+  text-decoration: underline;
+}
+
+.support {
+  animation: rotate 10s infinite;
+  font-size: 0.7rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo_desc {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.logo_card {
+  background-color: #3c3f46;
+  height: 18vh;
+  width: 250px;
+  align-items: center;
+  position: relative;
+  border: 2px solid rgb(221, 207, 207);
+  margin-top: 5%;
+  margin-left: 20px;
+}
+
+.logo_card img {
+  width: 75%;
+  padding-left: 25%;
+  padding-bottom: 35%;
+}
+
+.gray_line {
+  border-top: 1px solid rgb(218, 208, 208);
+}
+
+.see_people {
+  margin-left: 10%;
+  font-size: 1.2rem;
+}
+
+.confirmed {
+  margin-left: 30px;
+}
+
+.con_img {
+  position: relative;
+}
+
+.see_you {
+  position: absolute;
+  bottom: 80px;
+  left: 40px;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.images img {
+  width: 320px;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .create {
+    margin-left: 200px;
+  }
+
+  .covid {
+    margin-left: 150px;
+    width: 400px;
+  }
+
+  .event {
+    margin-left: 2px;
+  }
+
+  .souls {
+    margin-left: 58%;
+  }
+
+  .year {
+    margin-left: 90%;
+  }
+
+  .about_card {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    height: 25vh;
+    width: 100%;
+  }
+
+  .about_text {
+    padding-left: 5%;
+    padding-top: 5%;
+  }
+
+  ul,
+  .live_event {
+    height: 25vh;
+    font-size: 1.2rem;
+  }
+
+  .live_event {
+    width: 83%;
+    margin-left: 10%;
+  }
+
+  .logoo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .take_look,
+  .see_people {
+    margin-left: 37%;
+    margin-top: 5px;
+  }
+
+  .images {
+    display: flex;
+    justify-content: center;
+  }
+}
