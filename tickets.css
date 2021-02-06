@@ -64,7 +64,6 @@
 
 table {
   font-family: Lato, sans-serif;
-  border: 6px double red;
 }
 
 .hide_step {
@@ -102,5 +101,9 @@ table th {
   .top_box {
     width: 60%;
     margin-right: 20%;
+  }
+
+  table {
+    border: 6px double red;
   }
 }
