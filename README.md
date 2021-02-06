@@ -9,7 +9,7 @@ I have also applied animations in order to enhance the user's experience.
 
 Screenshot
 
-![Alt text](/assets/images/Concert-hall-about-tablet.png?raw=true "Desktop View")
+![Alt text](/assets/images/Concert-hall.png?raw=true "Desktop View")
 
 Built With
 HTML
