@@ -64,11 +64,16 @@
 
 table {
   font-family: Lato, sans-serif;
+  border: 6px double red;
 }
 
 .hide_step {
   display: flex;
   justify-content: center;
+}
+
+table th {
+  background-color: #f7f7f7;
 }
 
 @media (min-width: 768px) {
