@@ -22,7 +22,7 @@
   cursor: pointer;
   border-right: 1px solid #8b8b8b;
   border-bottom: 1px solid #fff;
-  border-left: 1px solid#FFF;
+  border-left: 1px solid#fff;
   background-color: red;
   color: white;
   display: flex;
@@ -228,7 +228,7 @@
 
 .more_desc {
   font-size: 0.8rem;
-  font-family: Lato, sans-serif;;
+  font-family: Lato, sans-serif;
 }
 
 .more {
@@ -477,4 +477,3 @@ body a {
     height: 55vh;
   }
 }
-
