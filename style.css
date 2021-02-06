@@ -3,8 +3,51 @@
   src: url('fonts/Cocogoose_trial.otf');
 }
 
+@font-face {
+  font-family: Lato;
+  src: url('fonts/Lato-Regular.ttf');
+  font-weight: 600;
+}
+
 .container {
   max-width: 320px;
+}
+
+.tb_button {
+  padding: 12px;
+  cursor: pointer;
+  border-right: 1px solid #8b8b8b;
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid#FFF;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  font-family: Lato, sans-serif;
+}
+
+.tb_button.hover {
+  border: 2px outset #def;
+  background-color: #f8f8f8 !important;
+}
+
+.ws_toolbar {
+  z-index: 100000;
+}
+
+.ws_toolbar .ws_tb_btn {
+  cursor: pointer;
+  border: 1px solid #555;
+  padding: 3px;
+}
+
+.tb_highlight {
+  background-color: yellow;
+}
+
+.COCO {
+  font-family: COCOGOOSE, sans-serif;
 }
 
 .mobile_nav_top {
@@ -23,6 +66,7 @@
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
+  font-family: Lato, sans-serif;
 }
 
 .e_line {
@@ -86,6 +130,7 @@
 .main_program {
   background-color: #282b32;
   color: white;
+  height: 307vw;
 }
 
 .red_line {
@@ -97,6 +142,8 @@
   background-color: #3c3f46;
   width: 93%;
   margin-left: 3.5%;
+  margin-top: 3%;
+  position: relative;
 }
 
 .m_card_container img {
@@ -116,6 +163,7 @@
   position: absolute;
   width: 60%;
   left: 100px;
+  font-family: Lato, sans-serif;
 }
 
 .lecture {
@@ -126,17 +174,8 @@
 .button_container {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 15px;
-}
-
-.button {
-  background-color: red;
-  color: white;
-  padding: 12px 12px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin-bottom: 16px;
 }
 
 .featured {
@@ -180,10 +219,12 @@
   color: red;
   font-size: 1.5rem;
   padding-bottom: 20px;
+  font-family: Lato, sans-serif;
 }
 
 .more_desc {
   font-size: 1rem;
+  font-family: Lato, sans-serif;
 }
 
 .more {
@@ -251,6 +292,14 @@ body a {
   display: none;
 }
 
+.main {
+  font-family: COCOGOOSE, sans-serif;
+}
+
+.lato {
+  font-family: Lato, sans-serif;
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -271,6 +320,8 @@ body a {
     color: white;
     top: 0;
     width: 720px;
+    font-family: Lato, sans-serif;
+    align-items: center;
   }
 
   .tablet_nav_bottom {
@@ -280,6 +331,7 @@ body a {
     background-color: white;
     border-bottom: 0.5px solid rgb(238, 229, 229);
     margin-top: 30px;
+    font-family: Lato, sans-serif;
   }
 
   .tablet_hide {
@@ -311,7 +363,7 @@ body a {
   }
 
   .m_card {
-    height: 40vh;
+    height: 42vh;
   }
 
   .cel_card {
@@ -339,10 +391,11 @@ body a {
   .about_music {
     line-height: 1.7rem;
     left: 15px;
+    top: 58px;
   }
 
   .main_program {
-    height: 60vh;
+    height: 65vh;
   }
 
   .right {
@@ -400,5 +453,9 @@ body a {
 
   .top_section {
     margin-top: 25px;
+  }
+
+  .tb_button {
+    margin-top: 1%;
   }
 }
