@@ -13,12 +13,16 @@
   max-width: 320px;
 }
 
+.part {
+  font-family: Lato, sans-serif;
+}
+
 .tb_button {
   padding: 12px;
   cursor: pointer;
   border-right: 1px solid #8b8b8b;
   border-bottom: 1px solid #fff;
-  border-left: 1px solid#fff;
+  border-left: 1px solid#FFF;
   background-color: red;
   color: white;
   display: flex;
@@ -224,7 +228,7 @@
 
 .more_desc {
   font-size: 0.8rem;
-  font-family: Lato, sans-serif;
+  font-family: Lato, sans-serif;;
 }
 
 .more {
@@ -410,7 +414,6 @@ body a {
     width: 100%;
     margin-right: 20%;
     height: 30vh;
-    animation: rotate 100s infinite;
     margin-top: 10%;
   }
 
@@ -441,6 +444,7 @@ body a {
 
   .mozzila {
     margin-left: 30%;
+    font-family: Lato, sans-serif;
   }
 
   .dum {
@@ -459,3 +463,18 @@ body a {
     margin-top: 1%;
   }
 }
+
+@media (min-width: 1024px) {
+  .main_program {
+    height: 100vh;
+  }
+
+  .tb_button {
+    margin-top: 8vh;
+  }
+
+  .m_card {
+    height: 55vh;
+  }
+}
+
