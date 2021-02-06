@@ -481,4 +481,8 @@ body a {
   .m_card {
     height: 40vh;
   }
+
+  .foot_top {
+    margin-top: 14.9%;
+  }
 }
