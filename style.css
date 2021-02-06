@@ -304,6 +304,10 @@ body a {
   font-family: Lato, sans-serif;
 }
 
+.left_foot {
+  margin-left: 10px;
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
