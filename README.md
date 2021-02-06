@@ -7,14 +7,9 @@ ticket for the desired date.
 creating this website I tried to stay loyal to some of the designs and the patterns while introducing some of my own for creativity.
 I have also applied animations in order to enhance the user's experience.
 
-Big screen view
+Screenshot
 
 ![Alt text](/assets/images/Concert-hall-about-tablet.png?raw=true "Desktop View")
-
-Small screen view
-
-![Alt text](/assets/images/Concert-hall-main-mobile.png?raw=true "Desktop View")
-
 
 Built With
 HTML
