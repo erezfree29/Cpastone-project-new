@@ -1,0 +1,109 @@
+@font-face {
+  font-family: Lato;
+  src: url('fonts/Lato-Italic.ttf');
+  background-color: 600;
+}
+
+@font-face {
+  font-family: COCOGOOSE;
+  src: url('fonts/Cocogoose_trial.otf');
+}
+
+.ticket {
+  display: flex;
+  justify-content: center;
+}
+
+.select_mobile {
+  font-size: 0.55rem;
+  border: 1px solid rgb(211, 182, 182);
+  padding: 2%;
+  width: 310px;
+  font-family: Lato, sans-serif;
+}
+
+.menu_thur {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.top_box {
+  width: 90%;
+  height: 3vh;
+  border: 1px solid rgb(214, 194, 194);
+  background-color: #f6f6f6;
+  font-size: 0.7rem;
+  line-height: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+  font-family: Lato, sans-serif;
+}
+
+.bottom_box {
+  width: 90%;
+  height: 10vh;
+  border: 1px solid rgb(214, 194, 194);
+  background-color: white;
+  margin-left: 15%;
+  margin-top: -30px;
+  font-family: Lato, sans-serif;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.tickets {
+  font-family: Lato, sans-serif;
+}
+
+table {
+  font-family: Lato, sans-serif;
+}
+
+.hide_step {
+  display: flex;
+  justify-content: center;
+}
+
+table th {
+  background-color: #f7f7f7;
+}
+
+@media (min-width: 768px) {
+  .hide_step {
+    display: none;
+  }
+
+  .ticket {
+    display: none;
+  }
+
+  .tickets {
+    display: flex;
+    justify-content: center;
+  }
+
+  .select_ticket {
+    font-size: 0.8rem;
+    border: 1px solid rgb(211, 182, 182);
+    width: 100%;
+    margin-bottom: 2%;
+    font-family: Lato, sans-serif;
+  }
+
+  .bottom_box,
+  .top_box {
+    width: 60%;
+    margin-right: 20%;
+  }
+
+  table {
+    border: 6px double red;
+  }
+}
