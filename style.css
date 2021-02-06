@@ -253,6 +253,7 @@
 .foot_top {
   background-color: #414246;
   width: 315px;
+  margin-left: 15px
 }
 
 .fa-copyright {
@@ -433,6 +434,7 @@ body a {
 
   .foot_top {
     width: 100%;
+   margin-left: 0.1px;
   }
 
   .foot_bottom {
