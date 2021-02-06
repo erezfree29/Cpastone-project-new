@@ -471,7 +471,7 @@ body a {
 
 @media (min-width: 1024px) {
   .main_program {
-    height: 100vh;
+    height: 70vh;
   }
 
   .tb_button {
@@ -479,6 +479,6 @@ body a {
   }
 
   .m_card {
-    height: 55vh;
+    height: 40vh;
   }
 }
