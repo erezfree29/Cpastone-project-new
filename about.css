@@ -142,6 +142,7 @@
 
 .con_img {
   position: relative;
+  margin-left: 17%;
 }
 
 .see_you {
@@ -163,9 +164,17 @@
   font-family: Lato, sans-serif;
 }
 
+.create {
+  margin-left: -60px;
+}
+
 @media (min-width: 768px) {
   .create {
     margin-left: 200px;
+  }
+
+  .con_img {
+    margin-left: 0.2%;
   }
 
   .covid {
